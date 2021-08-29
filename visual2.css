@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kurale&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+  background-color: #eeeeee;
+  margin: 6.2px 6.2px;
+  background-color: rgba(233, 231, 231, 0.972);
+}
+
+/**divs*/
+
+/**fin*/
+
+/**headrers*/
+h1 {
+  color: yellowgreen;
+  font-size: 65px;
+  font-family: cursive;
+  text-align: center;
+  font-family: "Merienda";
+}
+
+.h {
+  color: tomato;
+  font-size: 70px;
+  font-family: fantasy;
+}
+
+/**fin*/
+
+/**links y "hovers"*/
+
+
+
+.links img:hover{
+  transform: scale(0.99);
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.links_no:hover{
+  transform: scale(0.99);
+  border-radius: 30px;
+  background-color: transparent;
+  border-color: #393e46;
+  box-shadow: 1px 1px 3px 3px gray;
+}
+
+
+.subtitle:hover {
+  color: #da0037;
+  font-size: 25.5px;
+  font-family: sans-serif;
+  border-bottom: transparent;
+}
+
+/**fin*/
+
+/**hr*/
+hr {
+  border-color: lightsalmon;
+  height: 6px;
+  background-color: lightsalmon;
+  border-color: lightsalmon;
+}
+/**fin*/
+
+/**clases*/
+
+
+
+.links img,
+.links_no {
+  transition: all 0.25s linear;
+  box-shadow: 1.35px 1.35px grey;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+p {
+  font-size: 22.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  font-size: 22.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.subtitle {
+  color: #ff7600;
+  font-size: 26px;
+  font-family: sans-serif;
+  transition: all 99ms linear;
+  border-bottom: transparent;
+}
+
+.fisictittle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 47px;
+  color: coral;
+  display: inline-block;
+  font-family: "Dancing Script", cursive;
+}
+
+.paragraph {
+  font-size: 26px;
+  text-align: justify;
+}
+
+.paragraph img {
+  float: left;
+  box-shadow: 1px 1px 20px skyblue;
+  padding: 5px 5px;
+}
+
+
+
+._games {
+  color: #ff4b5c;
+  font-family: cursive;
+}
+
+.simbolo {
+  font-size: 25px;
+  font-weight: 600;
+  color: salmon;
+  font-family: cursive;
+}
+
+.brackets {
+  color: dodgerblue;
+  font-family: cursive;
+}
+
+span i,
+p i {
+  color: coral;
+  font-size: 23px;
+}
+
+.dsrll {
+  color: #393e46;
+  font-weight: 300;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.bnf {
+  color: #e84a5f;
+}
+
+.links {
+  font-size: 22px;
+  background-color: transparent;
+}
+
+.ejercicios {
+  color: #ff2e63;
+  font-style: italic;
+  font-size: 27px;
+}
+
+.formulas {
+  color: #ff4b5c;
+  font-family: cursive;
+  font-size: 30px;
+  box-shadow: 1px 1px 2.2px 2.3px#393e46;
+  border-style: solid;
+  border-color: #ff7600;
+}
+
+.subdef{
+  font-size: 23.5px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.geotittle {
+  font-family: Yeon Sung;
+  font-size: 40px;
+  color: coral;
+  display: inline-block;
+}
+
+.estadtitle{
+  color: coral;
+  display: inline-block;
+  font-size: 40px;
+  font-family: Courgette;
+}
+
+.matetittle {
+  font-family: Philosopher;
+  font-size: 40px;
+  color: coral;
+  display: inline-block;
+}
+
+.titulo_titulo {
+  font-family: Kurale;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ff9a3c;
+  display: inline-block;
+  text-align: left;
+}
+
+.menu {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: transparent;
+}
+
+.submenu {
+  color: transparent;
+}
+
+.ejercicios{
+  font-size: 26px;
+  font-family: JosefinSans;
+  color: #D72323;
+  border-bottom-width: 5px;
+  border-bottom-color: #393e46;
+}
+
+.transparente{
+  color: transparent;
+}
+
+.move {
+  align-items: center;
+  align-content: center;
+}
+
+.titles {
+  color: rgb(47, 185, 231);
+  font-size: 28px;
+  font-family: sans-serif;
+  transition: all 99ms linear;
+  border-bottom: transparent;
+}
+
+.titles:hover {
+  color: #ff4b5c;
+  font-size: 26px;
+  font-family: sans-serif;
+  border-bottom: transparent;
+}
+
+.subtemas{
+  color: #ff7600;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: transparent 3px;
+}
+
+.subtemas:hover{
+  color: #da0037;
+  font-size: 19px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: all 99ms linear;
+  border-bottom: transparent;
+}
+
+.pts{
+  list-style: georgian;
+}
+
+ul{
+  list-style: none;
+}
